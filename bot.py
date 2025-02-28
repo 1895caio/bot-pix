@@ -14,8 +14,9 @@ async def start(update: Update, context: CallbackContext):
     mensagem = f"""
     Olá! Para ter acesso ao melhor grupo do telegram com mais de mil mídias totalmente selecionadas por mim, realize o pagamento via PIX para a chave:
     
-    **Chave PIX:** {CHAVE_PIX}
-    **Valor:** {VALOR_PIX}
+    Chave Pix aleatória: {CHAVE_PIX}
+
+    Valor: {VALOR_PIX}
     
     Após o pagamento, envie o comprovante para validar o seu acesso ao grupo.
     """

@@ -1,4 +1,3 @@
-
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
@@ -39,4 +38,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

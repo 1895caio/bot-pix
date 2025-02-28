@@ -1,9 +1,10 @@
+
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
-# Token do seu bot no Telegram
-TELEGRAM_TOKEN = os.getenv('HTTP API:7126188971:AAG1btnbPclPYDTCE_riTmsPVP7PjMnX3Zg')
+# Token do seu bot no Telegram (lido da variável de ambiente)
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 # Dados do PIX (você pode personalizar)
 CHAVE_PIX = '30039c5d-c603-472c-82c0-3b956ccc2298'
@@ -15,7 +16,7 @@ async def start(update: Update, context: CallbackContext):
     Olá! Para ter acesso ao melhor grupo do telegram com mais de mil mídias totalmente selecionadas por mim, realize o pagamento via PIX para a chave:
     
     **Chave PIX:** {CHAVE_PIX}
-    **Valor:** R$ {VALOR_PIX}
+    **Valor:** {VALOR_PIX}
     
     Após o pagamento, envie o comprovante para validar o seu acesso ao grupo.
     """
